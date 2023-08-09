@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+<h1 id="h1">故障检测报告</h1>
+<a href="../download/?system_id={{ data_list.SYSTEM_ID }}">
+                    导出
+                </a>
+<table border="1px">
+    <tr>
+        <td>系统名称</td>
+        <td>{{ data_list.system_name }}</td>
+
+
+    </tr>
+
+        <tr>
+
+            <td>故障原因</td>
+            <td><br>{{ data_list.mem_str }}</br>
+                <br>{{ data_list.cpu_str }}</br>
+                <br>{{ data_list.rate_str }}</br>
+                <br>{{ data_list.read_str }}</br>
+                <br>{{ data_list.write_str }}</br>
+            </td>
+
+        </tr>
+
+</table>
+
+</body>
+</html>

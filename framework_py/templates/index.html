@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+<h1 id="h1">故障检测</h1>
+<table border="1px">
+    <tr>
+        <td>系统名称</td>
+        <td>状态</td>
+        <td>详情</td>
+
+    </tr>
+    {% for i in data_list %}
+        <tr>
+
+            <td align="center">{{ i.system_name }} </td>
+            <td align="center">{{ i.status }} </td>
+             <td align="center">
+                <a href="/faultdetect/article/?system_id={{ i.SYSTEM_ID }}">
+                    编辑
+                </a>
+
+            </td>
+
+        </tr>
+    {% endfor %}
+</table>
+
+
+</body>
+</html>

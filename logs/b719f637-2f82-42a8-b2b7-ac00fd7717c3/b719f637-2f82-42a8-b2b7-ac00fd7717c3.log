@@ -1,0 +1,75 @@
+ERROR [2023-08-08 17:09:40] D:\石化智云\2023-08数据\framework_3.3.1.92\framework_py\blueapps\core\exceptions\middleware.py 72 process_exception 4132 9944 
+ 	 捕获未处理异常,异常具体堆栈->[Traceback (most recent call last):
+  File "D:\石化智云\2023-08数据\dj_auth_template_blueapps_dj2\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\石化智云\2023-08数据\framework_3.3.1.92\framework_py\mako_application\views.py", line 128, in index
+    return render(request,"index.html",{"data_list":data_list})
+  File "D:\石化智云\2023-08数据\dj_auth_template_blueapps_dj2\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\石化智云\2023-08数据\dj_auth_template_blueapps_dj2\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\石化智云\2023-08数据\dj_auth_template_blueapps_dj2\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+], 请求URL->[/faultdetect/], 请求方法->[GET] 请求参数->[{}] 
+
+ERROR [2023-08-08 17:38:45] D:\石化智云\2023-08数据\framework_3.3.1.92\framework_py\blueapps\core\exceptions\middleware.py 72 process_exception 17892 2492 
+ 	 捕获未处理异常,异常具体堆栈->[Traceback (most recent call last):
+  File "D:\石化智云\2023-08数据\dj_auth_template_blueapps_dj2\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\石化智云\2023-08数据\framework_3.3.1.92\framework_py\mako_application\views.py", line 128, in index
+    return render(request,"../../../templates/index.html",{"data_list":data_list})
+  File "D:\石化智云\2023-08数据\dj_auth_template_blueapps_dj2\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\石化智云\2023-08数据\dj_auth_template_blueapps_dj2\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\石化智云\2023-08数据\dj_auth_template_blueapps_dj2\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: ../../../templates/index.html
+], 请求URL->[/faultdetect/], 请求方法->[GET] 请求参数->[{}] 
+
+ERROR [2023-08-08 17:38:55] D:\石化智云\2023-08数据\framework_3.3.1.92\framework_py\blueapps\core\exceptions\middleware.py 72 process_exception 17892 2492 
+ 	 捕获未处理异常,异常具体堆栈->[Traceback (most recent call last):
+  File "D:\石化智云\2023-08数据\dj_auth_template_blueapps_dj2\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\石化智云\2023-08数据\framework_3.3.1.92\framework_py\mako_application\views.py", line 128, in index
+    return render(request,"../../../templates/index.html",{"data_list":data_list})
+  File "D:\石化智云\2023-08数据\dj_auth_template_blueapps_dj2\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\石化智云\2023-08数据\dj_auth_template_blueapps_dj2\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\石化智云\2023-08数据\dj_auth_template_blueapps_dj2\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: ../../../templates/index.html
+], 请求URL->[/faultdetect/], 请求方法->[GET] 请求参数->[{}] 
+
+ERROR [2023-08-08 18:09:24] D:\石化智云\2023-08数据\framework_3.3.1.92\framework_py\blueapps\core\exceptions\middleware.py 72 process_exception 18988 6860 
+ 	 捕获未处理异常,异常具体堆栈->[Traceback (most recent call last):
+  File "D:\石化智云\2023-08数据\dj_auth_template_blueapps_dj2\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\石化智云\2023-08数据\framework_3.3.1.92\framework_py\mako_application\views.py", line 128, in index
+    return render(request, "index.html", {"data_list":data_list})
+  File "D:\石化智云\2023-08数据\dj_auth_template_blueapps_dj2\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\石化智云\2023-08数据\dj_auth_template_blueapps_dj2\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\石化智云\2023-08数据\dj_auth_template_blueapps_dj2\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+], 请求URL->[/faultdetect/], 请求方法->[GET] 请求参数->[{}] 
+
+ERROR [2023-08-08 18:10:45] D:\石化智云\2023-08数据\framework_3.3.1.92\framework_py\blueapps\core\exceptions\middleware.py 72 process_exception 19772 19100 
+ 	 捕获未处理异常,异常具体堆栈->[Traceback (most recent call last):
+  File "D:\石化智云\2023-08数据\dj_auth_template_blueapps_dj2\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\石化智云\2023-08数据\framework_3.3.1.92\framework_py\mako_application\views.py", line 128, in index
+    return render(request, "index.html", {"data_list":data_list})
+  File "D:\石化智云\2023-08数据\dj_auth_template_blueapps_dj2\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\石化智云\2023-08数据\dj_auth_template_blueapps_dj2\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\石化智云\2023-08数据\dj_auth_template_blueapps_dj2\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+], 请求URL->[/faultdetect/], 请求方法->[GET] 请求参数->[{}] 
+
